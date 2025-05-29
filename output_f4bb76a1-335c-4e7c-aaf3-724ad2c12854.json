@@ -1,0 +1,34 @@
+{
+  "answer": "Error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable",
+  "debug_state": {
+    "question": [
+      "인공지능의 정의가 뭐야?"
+    ],
+    "context": [
+      "I couldn't find relevant information in the knowledge base. Please try rephrasing your question."
+    ],
+    "filtered_context": [],
+    "answer": "Error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable",
+    "messages": [
+      "인공지능의 정의가 뭐야?",
+      "Error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+    ],
+    "scores": [
+      0.5
+    ],
+    "filtered_scores": [],
+    "chat_history": [
+      {
+        "role": "user",
+        "content": "인공지능의 정의가 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "Error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+      }
+    ],
+    "session_id": "179f7631-7ccf-408f-937f-19502f29ff0f",
+    "is_new_chat": true,
+    "compressed_context": ""
+  }
+}

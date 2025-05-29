@@ -1,0 +1,13 @@
+[
+  {
+    "role": "user",
+    "content": {
+      "role": "human",
+      "content": "인공지능의 정의가 뭐야?"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  }
+]

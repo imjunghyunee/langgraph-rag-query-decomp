@@ -1,0 +1,8 @@
+Modify the pipeline code so that the pipeline works as follows:
+
+When query is considered "complex", initiate "query_decomposition", instead of ircot.
+Query decomposition means:
+2-1. llm decides subquestions to solve the query question.
+2-2. Retrieval process is done for each subquestion. (max_subquestion_num=5)
+2-3. Add all contexts and answer for each subquestion.
+2-4. Based on that as context, llm finally ouputs final answer.

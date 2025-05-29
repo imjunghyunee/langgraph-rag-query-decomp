@@ -1,0 +1,98 @@
+[
+    {
+        "question": "Calculate the first three energy levels of an electron in an infinite potential well. Consider an electron in an infinite potential well of width 5 Å.",
+        "text": "The time-independent Schrödinger equation for a particle in a box of width $a$ with infinite potential barriers at $x=0$ and $x=a$ is: \n\n\\[ -\\frac{\\hbar^2}{2m} \\frac{d^2\\psi(x)}{dx^2} = E \\psi(x) \\]\n\nThe boundary conditions require $\\psi(0)=\\psi(a)=0$, and the allowed energy levels are given by:\n\n\\[ E_n = \\frac{n^2\\pi^2\\hbar^2}{2ma^2} \\]\n\nSubstituting $a=5$ Å and $m$ as the electron mass, one can calculate $E_1, E_2, E_3$ as demonstrated in the example."
+    },
+    {
+        "question": "Determine the quantized energy eigenvalues for a confined electron in a one-dimensional box potential. An electron is trapped in a quantum well with walls separated by 5 Å.",
+        "text": "For a particle confined in a one-dimensional infinite square well, the Schrödinger equation becomes:\n\n\\[ -\\frac{\\hbar^2}{2m} \\frac{d^2\\psi(x)}{dx^2} = E \\psi(x) \\]\n\nWith rigid boundary conditions $\\psi(0)=\\psi(a)=0$, the discrete energy spectrum is:\n\n\\[ E_n = \\frac{n^2\\pi^2\\hbar^2}{2ma^2} \\quad \\text{for } n = 1, 2, 3, ... \\]\n\nFor $a=5$ Å, the ground state and first two excited states can be computed using the electron rest mass."
+    },
+    {
+        "question": "Find the energy spectrum of an electron confined in an infinite square well of width 5 Å. Calculate the first three allowed energy states.",
+        "text": "The infinite potential well problem is solved by applying the time-independent Schrödinger equation:\n\n\\[ -\\frac{\\hbar^2}{2m} \\frac{d^2\\psi(x)}{dx^2} = E \\psi(x) \\]\n\nThe vanishing wave function at the boundaries ($x=0$ and $x=a$) leads to quantized energy levels:\n\n\\[ E_n = \\frac{n^2\\pi^2\\hbar^2}{2ma^2} \\]\n\nWith $a=5$ Å and using the electron mass, the energies $E_1$, $E_2$, and $E_3$ represent the lowest three quantum states."
+    },
+    {
+        "question": "Calculate the penetration depth of a particle impinging on a potential barrier. Consider an incident electron that is traveling at a velocity of $1 \\times 10^5$ m/s in region I.",
+        "text": "For a potential barrier where the potential energy $V_0$ is greater than the particle energy $E$, the wave function decays exponentially inside the barrier. The characteristic penetration depth $d$ where the wave function drops to $e^{-1}$ is:\n\n\\[ d = \\frac{\\hbar}{\\sqrt{2m(V_0-E)}} \\]\n\nThe calculation in the example uses the electron mass and the given kinetic energy to find $d \\approx 11.6$ Å, which is roughly two lattice constants of silicon."
+    },
+    {
+        "question": "Determine the tunneling length scale for an electron encountering a potential step. An electron with velocity $1 \\times 10^5$ m/s approaches a barrier in region I.",
+        "text": "When a particle encounters a potential barrier with $V_0 > E$, the wave function exhibits exponential decay within the classically forbidden region. The characteristic decay length is:\n\n\\[ d = \\frac{\\hbar}{\\sqrt{2m(V_0-E)}} \\]\n\nThis represents the distance over which the probability amplitude falls by a factor of $e$. Using the electron's kinetic energy and mass, the penetration depth provides insight into quantum tunneling phenomena in semiconductor devices."
+    },
+    {
+        "question": "Find the evanescent wave decay length for an electron in a potential barrier region. The electron has an initial velocity of $1 \\times 10^5$ m/s.",
+        "text": "In the classically forbidden region where $V_0 > E$, the wave function takes the form $\\psi(x) \\propto e^{-x/d}$. The decay constant is given by:\n\n\\[ d = \\frac{\\hbar}{\\sqrt{2m(V_0-E)}} \\]\n\nThis exponential decay length characterizes how deeply the electron wave function can penetrate into the barrier region. The calculation demonstrates the quantum mechanical nature of particle behavior at the nanoscale."
+    },
+    {
+        "question": "Determine the number (per $\\mathrm{cm}^3$) of quantum states in silicon between $E_c$ and $E_c + kT$ at $T = 300 \\mathrm{K}$.",
+        "text": "The density of quantum states in the conduction band of a semiconductor is given by:\n\n\\[ N = \\int_{E_c}^{E_c+kT} g_c(E) dE \\]\n\nwhere \n\\[ g_c(E) = \\frac{4\\pi(2m_n^*)^{3/2}}{h^3} (E-E_c)^{1/2} \\]\n\nIntegrating over the specified energy range gives the number of states per unit volume. This allows for estimation of the order of magnitude of available quantum states at thermal energies."
+    },
+    {
+        "question": "Calculate the density of available electronic states in the conduction band of silicon within one thermal energy unit from the band edge at room temperature.",
+        "text": "The conduction band density of states follows a parabolic energy dependence:\n\n\\[ g_c(E) = \\frac{4\\pi(2m_n^*)^{3/2}}{h^3} (E-E_c)^{1/2} \\]\n\nIntegrating from $E_c$ to $E_c + kT$ at $T = 300$ K:\n\n\\[ N = \\int_{E_c}^{E_c+kT} g_c(E) dE \\]\n\nThis calculation reveals the number of available quantum states per unit volume that electrons can occupy near the conduction band minimum at thermal equilibrium."
+    },
+    {
+        "question": "Find the total number of quantum states per unit volume in silicon's conduction band within the energy range from $E_c$ to $E_c + kT$ at $T = 300$ K.",
+        "text": "The state density function in the conduction band is:\n\n\\[ g_c(E) = \\frac{4\\pi(2m_n^*)^{3/2}}{h^3} (E-E_c)^{1/2} \\]\n\nThe total number of states in the energy interval is obtained by integration:\n\n\\[ N = \\int_{E_c}^{E_c+kT} g_c(E) dE \\]\n\nThis provides the state density available for electron occupation within approximately one thermal energy unit above the conduction band edge, which is crucial for understanding carrier statistics."
+    },
+    {
+        "question": "Determine the energy at which the Boltzmann approximation may be considered valid. Calculate the energy, in terms of $kT$ and $E_F$, at which the difference between the Boltzmann approximation and the Fermi–Dirac function is $5\\%$ of the Fermi function.",
+        "text": "The Fermi–Dirac probability function is:\n\n\\[ f_F(E) = \\frac{1}{1 + \\exp[(E-E_F)/kT]} \\]\n\nThe Boltzmann approximation is valid when $E - E_F \\gg kT$, so:\n\n\\[ f_F(E) \\approx \\exp\\left(-\\frac{E-E_F}{kT}\\right) \\]\n\nThe difference is $5\\%$ of the Fermi function when $E-E_F = 3kT$, i.e., for energies greater than three times the thermal energy above the Fermi level, the approximation holds within $5\\%$ error."
+    },
+    {
+        "question": "Find the threshold energy above the Fermi level where the classical Maxwell-Boltzmann distribution provides a good approximation to the Fermi-Dirac statistics with 5% accuracy.",
+        "text": "The exact Fermi-Dirac distribution is:\n\n\\[ f_F(E) = \\frac{1}{1 + \\exp[(E-E_F)/kT]} \\]\n\nFor high energies, this reduces to the Boltzmann approximation:\n\n\\[ f_F(E) \\approx \\exp\\left(-\\frac{E-E_F}{kT}\\right) \\]\n\nThe approximation error becomes 5% when the energy exceeds the Fermi level by approximately $3kT$. This criterion establishes the validity range for classical statistics in quantum systems."
+    },
+    {
+        "question": "Establish the energy criterion for applying classical statistics instead of Fermi-Dirac statistics. Determine when the Maxwell-Boltzmann approximation differs from the exact quantum distribution by only 5%.",
+        "text": "The quantum Fermi-Dirac occupation probability is:\n\n\\[ f_F(E) = \\frac{1}{1 + \\exp[(E-E_F)/kT]} \\]\n\nIn the high-energy limit, this approaches the classical form:\n\n\\[ f_F(E) \\approx \\exp\\left(-\\frac{E-E_F}{kT}\\right) \\]\n\nAnalysis shows that the classical approximation is accurate to within 5% when $E - E_F \\geq 3kT$. This condition defines the non-degenerate regime where classical statistics apply."
+    },
+    {
+        "question": "Calculate the thermal equilibrium concentrations of electrons and holes for a given Fermi energy. Consider silicon at $T = 300$ K so that $N_c = 2.8 \\times 10^{19}\\ \\mathrm{cm}^{-3}$ and $N_v = 1.04 \\times 10^{19}\\ \\mathrm{cm}^{-3}$. Assume that the Fermi energy is $0.25$ eV below the conduction band. If we assume that the bandgap energy of silicon is $1.12$ eV, then the Fermi energy will be $0.87$ eV above the valence band.",
+        "text": "The equilibrium electron and hole concentrations in a semiconductor are given by:\n\n\\[ n_0 = N_c \\exp\\left( -\\frac{E_c - E_F}{kT} \\right) \\]\n\\[ p_0 = N_v \\exp\\left( -\\frac{E_F - E_v}{kT} \\right) \\]\n\nwhere $E_c$ is the conduction band edge, $E_v$ is the valence band edge, $E_F$ is the Fermi energy, $N_c$ and $N_v$ are the effective density of states in the conduction and valence bands respectively. The electron and hole concentrations can change by many orders of magnitude as the Fermi energy moves within the bandgap."
+    },
+    {
+        "question": "Determine the carrier densities in thermal equilibrium for silicon at room temperature. Given $N_c = 2.8 \\times 10^{19}\\ \\mathrm{cm}^{-3}$, $N_v = 1.04 \\times 10^{19}\\ \\mathrm{cm}^{-3}$, and Fermi level positioned $0.25$ eV below $E_c$ and $0.87$ eV above $E_v$.",
+        "text": "The carrier concentrations in thermal equilibrium follow the relationships:\n\n\\[ n_0 = N_c \\exp\\left( -\\frac{E_c - E_F}{kT} \\right) \\]\n\\[ p_0 = N_v \\exp\\left( -\\frac{E_F - E_v}{kT} \\right) \\]\n\nThese expressions relate the free carrier densities to the effective densities of states and the Fermi level position. The exponential dependence demonstrates how small changes in Fermi energy can dramatically affect carrier concentrations in semiconductors."
+    },
+    {
+        "question": "Compute the electron and hole populations in silicon under equilibrium conditions at $T = 300$ K. The effective densities of states are $N_c = 2.8 \\times 10^{19}\\ \\mathrm{cm}^{-3}$ and $N_v = 1.04 \\times 10^{19}\\ \\mathrm{cm}^{-3}$, with the Fermi energy located $0.25$ eV below the conduction band minimum.",
+        "text": "The equilibrium carrier statistics are governed by:\n\n\\[ n_0 = N_c \\exp\\left( -\\frac{E_c - E_F}{kT} \\right) \\]\n\\[ p_0 = N_v \\exp\\left( -\\frac{E_F - E_v}{kT} \\right) \\]\n\nWith the bandgap of $1.12$ eV, the Fermi level position determines the relative populations of electrons and holes. The calculation illustrates how doping or temperature changes affect the charge carrier balance in semiconductor materials."
+    },
+    {
+        "question": "Determine the value of surface recombination velocity corresponding to the parameters given in Example 6.9.",
+        "text": "The surface recombination velocity $s$ relates the surface excess carrier concentration and the carrier flux at the surface. The relevant relation is:\n\n\\[ \\Delta p(x) = g\\Delta p_0 \\left[ 1 - \\frac{sL_p}{D_p + sL_p} e^{-x/L_p} \\right] \\]\n\nAt the surface ($x=0$), plugging in the values for $g\\Delta p_0, D_p, L_p$, and $\\Delta p(0)$, you can solve for $s$. This describes how efficiently excess carriers recombine at the surface, which is critical in device performance."
+    },
+    {
+        "question": "Calculate the surface recombination velocity parameter from the given minority carrier profile. Use the boundary conditions and material parameters from the referenced example.",
+        "text": "The surface recombination velocity characterizes the rate of carrier loss at semiconductor surfaces. The carrier distribution is described by:\n\n\\[ \\Delta p(x) = g\\Delta p_0 \\left[ 1 - \\frac{sL_p}{D_p + sL_p} e^{-x/L_p} \\right] \\]\n\nBy matching the surface carrier concentration ($x=0$) with the bulk generation-recombination balance, the surface recombination velocity $s$ can be extracted. This parameter is crucial for understanding surface passivation in photovoltaic and electronic devices."
+    },
+    {
+        "question": "Find the surface recombination parameter that fits the experimental minority carrier distribution. Apply the diffusion-recombination model with surface boundary conditions.",
+        "text": "The minority carrier profile in the presence of surface recombination follows:\n\n\\[ \\Delta p(x) = g\\Delta p_0 \\left[ 1 - \\frac{sL_p}{D_p + sL_p} e^{-x/L_p} \\right] \\]\n\nThe surface recombination velocity $s$ quantifies the surface's effectiveness as a recombination center. By fitting this expression to the measured carrier profile, one can determine $s$, which provides insight into surface quality and the need for passivation treatments."
+    },
+    {
+        "question": "Determine, to a first approximation, the frequency at which the small-signal current gain decreases to $1/\\sqrt{2}$ of its low-frequency value. Consider the simplified hybrid-pi circuit.",
+        "text": "For a simplified hybrid-pi model, the current gain $A_i$ is:\n\n\\[ A_i = \\frac{h_{fe0}}{\\sqrt{1 + (2\\pi f r_b C_{bc})^2}} \\]\n\nThe gain falls to $1/\\sqrt{2}$ of its maximum value at the frequency:\n\n\\[ f = \\frac{1}{2\\pi r_b C_{bc}} \\]\n\nThis frequency is known as the -3dB bandwidth of the transistor and is a key metric in amplifier design."
+    },
+    {
+        "question": "Find the 3-dB cutoff frequency for the current gain of a bipolar transistor using the hybrid-pi equivalent circuit. Calculate when the gain drops to 70.7% of its DC value.",
+        "text": "The frequency response of the transistor current gain follows:\n\n\\[ A_i = \\frac{h_{fe0}}{\\sqrt{1 + (2\\pi f r_b C_{bc})^2}} \\]\n\nThe -3dB frequency occurs when the gain equals $h_{fe0}/\\sqrt{2}$, which happens at:\n\n\\[ f_{-3dB} = \\frac{1}{2\\pi r_b C_{bc}} \\]\n\nThis cutoff frequency defines the useful bandwidth for amplification applications and is limited by the base resistance and collector-base capacitance."
+    },
+    {
+        "question": "Calculate the unity-gain bandwidth approximation for a BJT using the simplified high-frequency model. Determine the frequency where the current amplification falls to $1/\\sqrt{2}$ of the low-frequency gain.",
+        "text": "The high-frequency current gain behavior is modeled by:\n\n\\[ A_i = \\frac{h_{fe0}}{\\sqrt{1 + (2\\pi f r_b C_{bc})^2}} \\]\n\nThe -3dB point occurs at:\n\n\\[ f = \\frac{1}{2\\pi r_b C_{bc}} \\]\n\nThis frequency represents the practical upper limit for current amplification and is determined by the RC time constant of the base resistance and collector-base junction capacitance in the hybrid-pi model."
+    },
+    {
+        "question": "Design the ratio of emitter doping to base doping in order to achieve an emitter injection efficiency factor of $\\gamma = 0.9967$. Consider an npn bipolar transistor. Assume, for simplicity, that $D_E = D_B$, $L_E = L_B$, and $x_E = x_B$.",
+        "text": "The emitter injection efficiency $\\gamma$ is:\n\n\\[ \\gamma = \\frac{1}{1 + \\frac{N_B}{N_E}} \\]\n\nTo achieve a high $\\gamma$, the emitter doping $N_E$ must be much larger than the base doping $N_B$. Substituting $\\gamma = 0.9967$ allows you to solve for the ratio $N_E / N_B$."
+    },
+    {
+        "question": "Calculate the required doping concentration ratio for optimal emitter injection efficiency in an npn BJT. Target an injection efficiency of $\\gamma = 0.9967$ with equal diffusion parameters.",
+        "text": "The emitter injection efficiency depends on the doping ratio according to:\n\n\\[ \\gamma = \\frac{1}{1 + \\frac{N_B}{N_E}} \\]\n\nFor high-performance transistors, $\\gamma$ should approach unity. With the constraint $\\gamma = 0.9967$, the required doping ratio $N_E/N_B$ can be calculated. This ensures that most injected carriers are electrons from the emitter rather than holes from the base."
+    },
+    {
+        "question": "Determine the optimal emitter-to-base doping ratio for achieving 99.67% injection efficiency in a bipolar junction transistor. Assume symmetric diffusion lengths and junction widths.",
+        "text": "The injection efficiency is related to the doping concentrations by:\n\n\\[ \\gamma = \\frac{1}{1 + \\frac{N_B}{N_E}} \\]\n\nFor $\\gamma = 0.9967$, the emitter must be heavily doped relative to the base to minimize hole injection from base to emitter. The calculation determines the minimum doping ratio needed to achieve this high injection efficiency, which is critical for transistor current gain."
+    }
+]
